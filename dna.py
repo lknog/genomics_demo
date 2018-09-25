@@ -1,6 +1,7 @@
 complimentary_nucleotides = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
 
 class DNA:
+
     def __init__(self, sequence: str):
         self.sequence = sequence
         if not self._check_validity():
