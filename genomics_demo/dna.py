@@ -23,3 +23,8 @@ class DNA:
     @property
     def complimentary_sequence(self):
         return DNA(''.join(complimentary_nucleotides[nt.upper()] for nt in self.sequence))
+
+#     def transcribe_RNA_from_DNA(self):
+#         return (''.join(complimentary_nucleotides[nt.upper()] for nt in self.sequence))
+#
+# print(DNA.transcribe_RNA_from_DNA('ATGC'))
